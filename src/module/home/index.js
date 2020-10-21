@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -37,16 +38,17 @@ function Home() {
             <div className="col-md-8 mx-auto">
               <h2 className="section-heading">Discover what all the Hook is about!</h2>
               <div className="badges">
-                <a className="badge-link btn btn-outline btn-md js-scroll-trigger" href="/use-state">useState</a> &nbsp;&nbsp;&nbsp;
-                <a className="badge-link btn btn-outline btn-md js-scroll-trigger" href="/use-effect">useEffect</a> &nbsp;&nbsp;&nbsp;
-                <a className="badge-link btn btn-outline btn-md js-scroll-trigger" href="/use-context">useContext</a> &nbsp;&nbsp;&nbsp;
-                <a className="badge-link btn btn-outline btn-md js-scroll-trigger" href="/use-reducer">useReducer</a> &nbsp;&nbsp;&nbsp;
-                <a className="badge-link btn btn-outline btn-md js-scroll-trigger" href="/use-callback">useCallback</a> &nbsp;&nbsp;&nbsp;
-                <a className="badge-link btn btn-outline btn-md js-scroll-trigger" href="/use-memo">useMemo</a> &nbsp;&nbsp;&nbsp;
-                <a className="badge-link btn btn-outline btn-md js-scroll-trigger" href="/use-ref">useRef</a> &nbsp;&nbsp;&nbsp;
-                <a className="badge-link btn btn-outline btn-md js-scroll-trigger" href="/use-imperative-handle">useImperativeHandle</a> &nbsp;&nbsp;&nbsp;
-                <a className="badge-link btn btn-outline btn-md js-scroll-trigger" href="/use-layout-effect">useLayoutEffect</a> &nbsp;&nbsp;&nbsp;
-                <a className="badge-link btn btn-outline btn-md js-scroll-trigger" href="/use-debug-value">useDebugValue</a>
+                <Link className="badge-link btn btn-outline btn-md js-scroll-trigger" to='/use-state' >useState</Link> &nbsp;&nbsp;&nbsp;
+                <Link className="badge-link btn btn-outline btn-md js-scroll-trigger" to="/use-state">useState</Link> &nbsp;&nbsp;&nbsp;
+                <Link className="badge-link btn btn-outline btn-md js-scroll-trigger" to="/use-effect">useEffect</Link> &nbsp;&nbsp;&nbsp;
+                <Link className="badge-link btn btn-outline btn-md js-scroll-trigger" to="/use-context">useContext</Link> &nbsp;&nbsp;&nbsp;
+                <Link className="badge-link btn btn-outline btn-md js-scroll-trigger" to="/use-reducer">useReducer</Link> &nbsp;&nbsp;&nbsp;
+                <Link className="badge-link btn btn-outline btn-md js-scroll-trigger" to="/use-callback">useCallback</Link> &nbsp;&nbsp;&nbsp;
+                <Link className="badge-link btn btn-outline btn-md js-scroll-trigger" to="/use-memo">useMemo</Link> &nbsp;&nbsp;&nbsp;
+                <Link className="badge-link btn btn-outline btn-md js-scroll-trigger" to="/use-ref">useRef</Link> &nbsp;&nbsp;&nbsp;
+                <Link className="badge-link btn btn-outline btn-md js-scroll-trigger" to="/use-imperative-handle">useImperativeHandle</Link> &nbsp;&nbsp;&nbsp;
+                <Link className="badge-link btn btn-outline btn-md js-scroll-trigger" to="/use-layout-effect">useLayoutEffect</Link> &nbsp;&nbsp;&nbsp;
+                <Link className="badge-link btn btn-outline btn-md js-scroll-trigger" to="/use-debug-value">useDebugValue</Link>
               </div>
             </div>
           </div>

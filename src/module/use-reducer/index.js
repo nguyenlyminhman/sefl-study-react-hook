@@ -9,8 +9,7 @@ function UseReducerHook() {
       <div className='container'>
         <div class="d-flex justify-content-center">
           <div className='col-8'>
-            
-            
+            Updating...
           </div>
         </div>
       </div>
