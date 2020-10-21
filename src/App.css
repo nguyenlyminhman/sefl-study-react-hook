@@ -255,11 +255,14 @@
  
  section.download .badges .badge-link {
      display: block;
-     margin-bottom: 25px
+     margin-bottom: 25px;
+     color: gray;
+     text-decoration: none;
+     font-size: x-large;
  }
  
  section.download .badges .badge-link:last-child {
-     margin-bottom: 0
+     margin-bottom: 5
  }
  
  section.download .badges .badge-link img {
@@ -269,7 +272,7 @@
  @media (min-width:768px) {
      section.download .badges .badge-link {
          display: inline-block;
-         margin-bottom: 0
+         margin-bottom: 5
      }
  }
  
@@ -342,7 +345,7 @@
  
  section.cta .cta-content h2 {
      font-size: 50px;
-     max-width: 450px;
+     max-width: 550px;
      margin-top: 0;
      margin-bottom: 25px;
      color: #fff
@@ -475,7 +478,7 @@
      border-radius: 300px;
      font-family: Lato, Helvetica, Arial, sans-serif;
      letter-spacing: 2px;
-     text-transform: uppercase
+     /* text-transform: uppercase */
  }
  
  .btn-xl {
