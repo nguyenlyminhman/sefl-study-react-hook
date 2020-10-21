@@ -6,7 +6,7 @@ function Navigator() {
         <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div className="container">
                 <NavLink className="navbar-brand js-scroll-trigger" to="/">React Hook - Self Study</NavLink>
-                <button 
+                <button
                     className="navbar-toggler navbar-toggler-right"
                     type="button"
                     data-toggle="collapse"
@@ -14,7 +14,7 @@ function Navigator() {
                     aria-controls="navbarResponsive"
                     aria-expanded="false"
                     aria-label="Toggle navigation">
-                        Menu
+                    Menu
                         <i className="fas fa-bars" />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
@@ -24,9 +24,9 @@ function Navigator() {
                                 Basic Hooks
                             </a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <NavLink to="/use-state" className="nav-link js-scroll-trigger dropdown-item">useState</NavLink>
-                                <NavLink to="/use-effect" className="nav-link js-scroll-trigger dropdown-item">useEffect</NavLink>
-                                <NavLink to="/use-context" className="nav-link js-scroll-trigger dropdown-item">useContext</NavLink>
+                                <NavLink to="/use-state" className="nav-link js-scroll-trigger "><a className="dropdown-item" href>useState</a></NavLink>
+                                <NavLink to="/use-effect" className="nav-link js-scroll-trigger "><a className="dropdown-item" href>useEffect</a></NavLink>
+                                <NavLink to="/use-context" className="nav-link js-scroll-trigger "><a className="dropdown-item" href>useContext</a></NavLink>
                             </div>
                         </li>
                         <li className="nav-item dropdown">
